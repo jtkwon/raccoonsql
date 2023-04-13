@@ -49,7 +49,7 @@ dev = ["pytest==7.3.0", "pytest-cov[all]", "mypy==0.910", "black==21.10b0"]
 Homepage = "https://github.com/jtkwon/raccoonsql"
 documentation = "https://github.com/jtkwon/raccoonsql"
 repository = "https://github.com/jtkwon/raccoonsql"
-changelog = "https://github.com/jtkwon/raccoonsql/blob/master/CHANGELOG.md"
+changelog = "https://github.com/jtkwon/raccoonsql/blob/main/CHANGELOG.md"
 
 [tool.black]
 target-version = ['py39']
