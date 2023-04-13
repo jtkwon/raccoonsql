@@ -1,0 +1,32 @@
+# python
+*.egg
+__pycache__/
+*.egg-info/
+.venv/
+dist/*
+build/*
+.pytest_cache
+.python-version
+.Python
+sdist/
+var/
+
+# logs and configs
+.DS_Store
+.nyc_output
+.vscode-test
+*.vsix
+*.pyc
+.idea/
+
+# C extensions
+*.so
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
