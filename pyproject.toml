@@ -16,14 +16,8 @@ build-backend = "setuptools.build_meta"
 include-package-data = true
 package-dir = { "" = "src" }
 
-[tool.setuptools.packages.find]
-where = ["src"]
-# include = []
-# exclude = ["tests"]
-namespaces = true
-
 [tool.setuptools_scm]
-write_to = "src/raccoon/_version.py"
+write_to = "src/raccoonsql/_version.py"
 
 # PEP 621 https://peps.python.org/pep-0621/
 [project]
@@ -41,7 +35,7 @@ classifiers = [
   "License :: OSI Approved :: MIT License",
   "Programming Language :: Python",
 ]
-keywords = ["package", "setuptools"]
+keywords = ["raccoon", "setuptools"]
 dependencies = ["requests"]
 [project.optional-dependencies]
 dev = ["pytest==7.3.0", "pytest-cov[all]", "mypy==0.910", "black==21.10b0"]
@@ -60,3 +54,9 @@ python_version = "3.9"
 no_strict_optional = true
 ignore_missing_imports = true
 check_untyped_defs = true
+
+[tool.poetry]
+name = "raccoonsql"
+version = "0.0.0"
+description = "RaccoonSQL written in Python"
+authors = ["Jeff Kwon <taerakwon@gmail.com>"]
