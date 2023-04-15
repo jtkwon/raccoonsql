@@ -1,6 +1,6 @@
 # RacoonSQL
 
-RacoonSQL is going to be a Python module that allows you to run DML queries and export results in various formats
+RacoonSQL is binding module to run OctoSQL in Python
 
 ## confirmed version
-- python 3.7.*
+- python 3.10.*

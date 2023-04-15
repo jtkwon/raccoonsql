@@ -30,7 +30,7 @@ authors = [{ name = "jtkwon" }, { email = "taerakwon@gmail.com" }]
 maintainers = [{ name = "jtkwon" }, { email = "taerakwon@gmail.com" }]
 readme = "README.md"
 license = { file = "LICENSE.txt" }
-requires-python = ">=3.7"
+requires-python = ">=3.10"
 classifiers = [
   "License :: OSI Approved :: MIT License",
   "Programming Language :: Python",
